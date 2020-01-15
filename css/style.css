@@ -9,22 +9,22 @@
     background-image: url(../billboard.jpg);
     background-size: cover;
 }
-nav{
+.nav_bar{
     width:auto;
     height:80px;
     background-color:rgba(0,0,0,0.7);
     line-height: 80px;
     
 }
-nav ul li{
+.nav_bar ul li{
     list-style-type: none;
     display:inline-block;
 }
-nav ul{
+.nav_bar ul{
     float: right;
     margin-right: 30px;
 }
-nav ul li a{
+.nav_bar ul li a{
     text-decoration: none;
     padding: 30px;
     color: #fff;
@@ -35,7 +35,7 @@ nav ul li a{
 img{
     margin-left: 200px;
 }
-nav a:hover{
+.nav_bar a:hover{
     
     background: linear-gradient(rgb(226, 14, 180),rgb(206, 37, 37));
     transition:0.8s;
