@@ -262,6 +262,13 @@ figcaption{
     font-weight: bold;
     font-family: Verdana;
 }
+.testimonials_wrapper ul{
+	list-style-type: none;
+	
+}
+.location ul{
+	list-style-type: none;
+}
 .test1 img{
     position: absolute;
     right:580px;
@@ -444,6 +451,7 @@ figcaption{
     font-weight: bold;
 }
 .company ul{
+    list-style-type: none;
     text-decoration: none;
     line-height: 30px;
     left:500px;
