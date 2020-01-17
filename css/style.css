@@ -254,7 +254,7 @@ figcaption{
     left:-100px;
 }
 
-.testimonials_wrapper h1{
+.wrapper h1{
     top:720px;
     position: absolute;
     right:310px;
@@ -262,7 +262,7 @@ figcaption{
     font-weight: bold;
     font-family: Verdana;
 }
-.testimonials_wrapper ul{
+.wrapper ul{
 	list-style-type: none;
 	
 }
