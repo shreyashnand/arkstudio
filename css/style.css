@@ -29,7 +29,7 @@
     text-decoration: none;
     padding: 30px;
     color: #fff;
-    text-transform: uppercase;
+ 
     font-weight: bold;
 
 }
@@ -281,7 +281,7 @@ figcaption{
     top:1050px;
     position: absolute;
     right:540px;
-    text-transform: uppercase;
+    
     font-family: Verdana;
 }
 .test1 h2{
@@ -302,7 +302,7 @@ figcaption{
     top:1050px;
     position: absolute;
     right:290px;
-    text-transform: uppercase;
+    
     font-family: Verdana;
 }
 .test2 h2{
@@ -323,7 +323,7 @@ figcaption{
     top:1050px;
     position: absolute;
     right:55px;
-    text-transform: uppercase;
+  
     font-family: Verdana;
 }
 .test3 h2{
