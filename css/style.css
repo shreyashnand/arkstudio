@@ -182,12 +182,12 @@ figcaption{
     right:-30px;
 }
 
-.services_wrapper ul {
+.services ul {
     padding-top: 20px; 
     position: relative;
 }
 
-.services_wrapper li {
+.services li {
     float: left; 
     text-align: center;
 	list-style-type: none;
@@ -196,7 +196,7 @@ figcaption{
 }
 
 
-.services_wrapper li::before, .services_wrapper li::after{
+.services li::before, .services li::after{
 	content: '';
     position: absolute; 
     top: 0; 
@@ -205,21 +205,21 @@ figcaption{
     width: 50%; 
     height: 20px;   
 }
-.services_wrapper li::after{
+.services li::after{
 	right: auto; left: 50%;
 	border-left: 1px solid #ccc;
 }
 
 
-.services_wrapper li:only-child::after, .services_wrapper li:only-child::before {
+.services li:only-child::after, .services li:only-child::before {
 	display: none;
 }
 
-.services_wrapper li:first-child::before, .services_wrapper li:last-child::after{
+.services li:first-child::before, .services li:last-child::after{
 	border: 0 none;
 }
 
-.services_wrapper li:last-child::before{
+.services li:last-child::before{
 	border-right: 1px solid #ccc;
 	border-radius: 0 5px 0 0;
 	-webkit-border-radius: 0 5px 0 0;
@@ -227,7 +227,7 @@ figcaption{
 }
 
 
-.services_wrapper ul ul::before{
+.services ul ul::before{
 	content: '';
     position: absolute; 
     top: 0; 
@@ -237,7 +237,7 @@ figcaption{
     height: 20px;
 }
 
-.services_wrapper li a{
+.services li a{
 	padding: 5px 10px;
 	text-decoration: none;
 	color: #666;
@@ -246,7 +246,7 @@ figcaption{
 	display: inline-block;
 }
 
-.services_wrapper img{
+.services img{
     width:60px;
     height:50px;
     align-items: center;
