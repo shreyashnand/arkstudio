@@ -225,7 +225,12 @@ figcaption{
 	-webkit-border-radius: 0 5px 0 0;
 	-moz-border-radius: 0 5px 0 0;
 }
-
+.you {
+	text-decoration:none;
+	margin-left:100px;
+	list-style:none;
+	color:gray;
+}
 
 .sw ul ul::before{
 	content: '';
